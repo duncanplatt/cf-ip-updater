@@ -1,0 +1,26 @@
+{
+  "name": "cf-ip-updater",
+  "version": "0.1.0",
+  "description": "Cloudflare Worker that lets routers (TP-Link Omada ER605 and other custom DDNS clients) update specific Cloudflare DNS records.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:local": "wrangler deploy --config wrangler.local.jsonc",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p test",
+    "types": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.8.4",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1",
+    "wrangler": "^4.164.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "workerd@1.20261117.1": true
+  }
+}

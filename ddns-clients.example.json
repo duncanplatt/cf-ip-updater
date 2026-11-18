@@ -1,0 +1,12 @@
+{
+  "wan1-router": {
+    "password": "replace-with-48-hex-chars-from-openssl-rand-hex-24",
+    "zone_id": "0123456789abcdef0123456789abcdef",
+    "hostnames": ["wan1.example.com"]
+  },
+  "wan2-router": {
+    "password": "use-a-different-password-for-each-wan-login",
+    "zone_id": "0123456789abcdef0123456789abcdef",
+    "hostnames": ["wan2.example.com"]
+  }
+}

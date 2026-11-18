@@ -1,0 +1,15 @@
+node_modules/
+.wrangler/
+dist/
+coverage/
+
+# Local secrets and personal config. Never commit these.
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+wrangler.local.jsonc
+ddns-clients.json
+
+cursor-thinking.md

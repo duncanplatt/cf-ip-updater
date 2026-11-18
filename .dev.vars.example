@@ -1,0 +1,3 @@
+# Copy to .dev.vars for `npm run dev`. .dev.vars is gitignored.
+CF_API_TOKEN="your-zone-scoped-dns-edit-token"
+DDNS_CLIENTS='{"wan1-router":{"password":"replace-with-48-hex-chars","zone_id":"0123456789abcdef0123456789abcdef","hostnames":["wan1.example.com"]}}'
